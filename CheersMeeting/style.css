@@ -1,0 +1,170 @@
+.body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+ul{
+    padding: 0px!important;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color: #23282d;
+    height: 60px;
+}
+
+main{
+    margin: auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 2px;
+    width: 70%;
+}
+
+.rd-sociais ul li{
+    margin-left: 14px;
+    display: inline-block;
+    list-style: none;
+}
+
+.rd-sociais{
+    width: 20%;
+    float: right;
+}
+
+.header2{
+    background-color: rgb(255, 255, 255);
+    width: 980px;
+    margin: auto;
+    padding: 13px;
+}
+
+.menu-urls{
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+    height: 50px;
+}
+
+.menu ul li:hover{
+    border-bottom: 3px solid #ad0505;
+}
+
+.menu ul li a:hover {
+    color: #ad0505;
+}
+
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu{
+    float: left;
+    width: 70%;
+}
+
+.search{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.search input{
+    background-position: 98%;
+    background-repeat: no-repeat;
+    background-image: url(./img/icone-search.png);
+    width: 135px;
+    margin-top: 15px;
+    border: 2px solid #8b8b8b;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.sl {
+    margin: auto;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 51px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(./img/previw.png);
+    background-repeat: no-repeat;
+    z-index: 9;
+    position: absolute;
+    top: 35%;
+    left: 80px;
+    cursor: pointer;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 51px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(./img/next.png);
+    background-repeat: no-repeat;
+    z-index: 9;
+    position: absolute;
+    top: 35%;
+    right: 45px;
+    cursor: pointer;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.slick-dots{
+    margin: auto;
+    float: right;
+    position: absolute;
+    top: 90%;
+    left: 47%;
+}
+
+li.slick-active button{
+    background-color: #ad0505;
+}
+
+.footer{
+    float: inline-end;
+    text-align: center;
+}
