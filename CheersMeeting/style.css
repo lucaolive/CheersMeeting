@@ -164,7 +164,37 @@ li.slick-active button{
     background-color: #ad0505;
 }
 
-.footer{
-    float: inline-end;
+.texto-destaque p{
+    text-align: center;
+    color: #8b8b8b;
+    font-size: 15px;
+}
+
+.texto-destaque strong{
+    color: #646464;
+}
+
+.texto-destaque h1{
+    color: #8b8b8b;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.texto-destaque h3{
+    color: #646464;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.col-3, .opc{
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 166px;
+}
+
+footer{
     text-align: center;
 }
