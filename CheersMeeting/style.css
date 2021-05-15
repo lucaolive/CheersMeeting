@@ -14,7 +14,7 @@ ul{
     height: 60px;
 }
 
-main{
+main, .content{
     margin: auto;
     width: 980px;
     position: relative;
@@ -157,7 +157,7 @@ button.slick-next{
     float: right;
     position: absolute;
     top: 90%;
-    left: 47%;
+    left: 46%;
 }
 
 li.slick-active button{
