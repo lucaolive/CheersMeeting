@@ -188,13 +188,13 @@ li.slick-active button{
     text-align: center;
 }
 
-.col-3, .opc{
-    text-align: center;
-    display: inline-block;
-    width: 250px;
-    height: 166px;
+.col-3{
+    padding-left: 50px;
+    width: 28%;
+    float: left;
+    position: relative;
 }
 
-footer{
-    text-align: center;
+.blocko-texto{
+    margin-top: 2em;
 }
